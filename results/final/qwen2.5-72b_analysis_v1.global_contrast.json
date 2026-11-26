@@ -1,0 +1,45 @@
+{
+  "provider": "open_weight",
+  "requested_model": "qwen2.5-72b",
+  "contrast": "global_congruent_minus_global_incongruent",
+  "congruent_label": "congruent",
+  "incongruent_label": "incongruent",
+  "congruent_mean": 0.8480885311871227,
+  "incongruent_mean": 0.43546240851630075,
+  "observed_drop": 0.41262612267082194,
+  "positive_values_mean": "higher accuracy in the globally congruent condition",
+  "technical_missing_items": 0,
+  "bootstrap": {
+    "resampling_unit": "item",
+    "stratified": true,
+    "stratum_field": "number_pattern",
+    "strata": [
+      "PPP",
+      "PPS",
+      "PSP",
+      "PSS",
+      "SPP",
+      "SPS",
+      "SSP",
+      "SSS"
+    ],
+    "stratum_counts": {
+      "PPP": 254,
+      "PPS": 232,
+      "PSP": 257,
+      "PSS": 257,
+      "SPP": 249,
+      "SPS": 248,
+      "SSP": 260,
+      "SSS": 243
+    },
+    "requested_replicates": 10000,
+    "successful_replicates": 10000,
+    "skipped_replicates": 0,
+    "seed": 20260728,
+    "ci_method": "percentile",
+    "confidence_level": 0.95,
+    "ci_lower": 0.38788820748844366,
+    "ci_upper": 0.43669127205013186
+  }
+}

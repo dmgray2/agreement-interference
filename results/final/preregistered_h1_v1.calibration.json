@@ -1,0 +1,58 @@
+{
+  "analysis": "preregistered_h1_open_weight_method_calibration",
+  "number_of_models": 11,
+  "models": [
+    "gpt2",
+    "pythia-410m",
+    "llama-3.2-1b",
+    "llama-3.2-3b",
+    "llama-3.1-70b",
+    "qwen2.5-1.5b",
+    "qwen2.5-3b",
+    "qwen2.5-7b",
+    "qwen2.5-14b",
+    "qwen2.5-32b",
+    "qwen2.5-72b"
+  ],
+  "contrast": "global_congruent_minus_global_incongruent",
+  "critical_region_metric": "correct_crit",
+  "forced_choice_metric": "counterbalanced_accuracy",
+  "observed_spearman_rho": 0.33636363636363636,
+  "sign_agreement_count": 9,
+  "sign_agreement_denominator": 11,
+  "bootstrap": {
+    "resampling_unit": "item",
+    "paired_across_methods": true,
+    "paired_across_models": true,
+    "stratified": true,
+    "stratum_field": "number_pattern",
+    "strata": [
+      "PPP",
+      "PPS",
+      "PSP",
+      "PSS",
+      "SPP",
+      "SPS",
+      "SSP",
+      "SSS"
+    ],
+    "stratum_counts": {
+      "PPP": 254,
+      "PPS": 232,
+      "PSP": 257,
+      "PSS": 257,
+      "SPP": 249,
+      "SPS": 248,
+      "SSP": 260,
+      "SSS": 243
+    },
+    "requested_replicates": 10000,
+    "successful_replicates": 10000,
+    "skipped_replicates": 0,
+    "seed": 20260731,
+    "ci_method": "percentile",
+    "confidence_level": 0.95,
+    "ci_lower": 0.15454545454545454,
+    "ci_upper": 0.5011402523360258
+  }
+}

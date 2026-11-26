@@ -1,0 +1,12 @@
+model,v2_total_families,single_token_eligible,not_single_token_for_this_model,eligible_retention_rate,in_all_model_analysis,in_non_pythia_analysis
+gpt2,2000,1636,364,0.818,1,1
+llama31_70b,2000,1636,364,0.818,1,1
+llama32_1b,2000,1636,364,0.818,1,1
+llama32_3b,2000,1636,364,0.818,1,1
+pythia410,2000,1094,906,0.547,1,0
+qwen25_1.5b,2000,1636,364,0.818,1,1
+qwen25_14b,2000,1636,364,0.818,1,1
+qwen25_32b,2000,1636,364,0.818,1,1
+qwen25_3b,2000,1636,364,0.818,1,1
+qwen25_72b,2000,1636,364,0.818,1,1
+qwen25_7b,2000,1636,364,0.818,1,1

@@ -1,0 +1,25 @@
+name: ler-data
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - psycopg2
+  - python-dotenv
+  - scipy
+  - duckdb
+  - sqlalchemy
+  - pandas
+  - rich
+  - jupyterlab
+  - requests
+  - numpy
+  - polars
+  - pydantic
+  - ipykernel
+  - matplotlib
+  - tqdm
+  - scikit-learn
+  - pyarrow
+  - alembic
+  - regex

@@ -1,0 +1,17 @@
+key,value
+input_master,/mnt/data/master_scores_full.csv
+input_master_sha256,4e42e2d05caa2285cdd2cd5bae05083db2140848d103c3fd63d693e0ea380404
+checkpoint_analyzed,V2
+models_in_master,gpt2;llama31_70b;llama32_1b;llama32_3b;pythia410;qwen25_1.5b;qwen25_14b;qwen25_32b;qwen25_3b;qwen25_72b;qwen25_7b
+n_models,11
+n_v2_families_full,2000
+single_token_rule,crit_end - crit_start == 1
+n_common_all_models,1094
+non_pythia_excluded_model,pythia410
+n_common_non_pythia,1636
+bootstrap_resamples,20000
+monte_carlo_permutations,10000
+base_seed,20260712
+p_value_methods,exact one-sided conditional label permutation (hypergeometric); Monte Carlo one-sided label permutation
+rescored_models,0; existing correct_crit/log-probability columns only
+source_master_modified,no

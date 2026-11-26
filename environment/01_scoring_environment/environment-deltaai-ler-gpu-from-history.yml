@@ -1,0 +1,7 @@
+name: ler-gpu
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pytorch=2.5.1
+  - transformers=4.57.3

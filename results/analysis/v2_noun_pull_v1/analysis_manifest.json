@@ -1,0 +1,182 @@
+{
+  "analysis": "v2_noun_pull_exploratory_v1",
+  "status": "exploratory; not a preregistered confirmatory analysis",
+  "inputs_sha256": {
+    "data/scores/master_score_lists/master_scores_full.csv": "4e42e2d05caa2285cdd2cd5bae05083db2140848d103c3fd63d693e0ea380404",
+    "results/final/master_forced_choice_scores_v1.csv": "76cfd5d8a54a645c677bbced91979d9b7eedb3176edf4661242d4eba20b02ae2",
+    "data/scores/master_score_lists/master_forced_choice_open_weight_bfloat16.v1.csv": "7485374f17a27d48cf1a12dd43c3791cfa31964cbf81bf4420226171a8349f8a"
+  },
+  "script_sha256": "3a3fbea134f0b1a5b687058fc0441988b68e5bf0c8dafa56697b47316adbc3cb",
+  "model_selection": [
+    {
+      "method": "critical_region",
+      "model": "gpt2"
+    },
+    {
+      "method": "critical_region",
+      "model": "pythia-410m"
+    },
+    {
+      "method": "critical_region",
+      "model": "llama-3.2-1b"
+    },
+    {
+      "method": "critical_region",
+      "model": "llama-3.2-3b"
+    },
+    {
+      "method": "critical_region",
+      "model": "llama-3.1-70b"
+    },
+    {
+      "method": "critical_region",
+      "model": "qwen2.5-1.5b"
+    },
+    {
+      "method": "critical_region",
+      "model": "qwen2.5-3b"
+    },
+    {
+      "method": "critical_region",
+      "model": "qwen2.5-7b"
+    },
+    {
+      "method": "critical_region",
+      "model": "qwen2.5-14b"
+    },
+    {
+      "method": "critical_region",
+      "model": "qwen2.5-32b"
+    },
+    {
+      "method": "critical_region",
+      "model": "qwen2.5-72b"
+    },
+    {
+      "method": "forced_choice",
+      "model": "gpt2"
+    },
+    {
+      "method": "forced_choice",
+      "model": "pythia-410m"
+    },
+    {
+      "method": "forced_choice",
+      "model": "llama-3.2-1b"
+    },
+    {
+      "method": "forced_choice",
+      "model": "llama-3.2-3b"
+    },
+    {
+      "method": "forced_choice",
+      "model": "llama-3.1-70b"
+    },
+    {
+      "method": "forced_choice",
+      "model": "qwen2.5-1.5b"
+    },
+    {
+      "method": "forced_choice",
+      "model": "qwen2.5-3b"
+    },
+    {
+      "method": "forced_choice",
+      "model": "qwen2.5-7b"
+    },
+    {
+      "method": "forced_choice",
+      "model": "qwen2.5-14b"
+    },
+    {
+      "method": "forced_choice",
+      "model": "qwen2.5-32b"
+    },
+    {
+      "method": "forced_choice",
+      "model": "qwen2.5-72b"
+    },
+    {
+      "method": "forced_choice",
+      "model": "gpt-4.1"
+    },
+    {
+      "method": "forced_choice",
+      "model": "gpt-5"
+    },
+    {
+      "method": "forced_choice",
+      "model": "gpt-5.6-sol"
+    },
+    {
+      "method": "forced_choice",
+      "model": "opus-4.1"
+    },
+    {
+      "method": "forced_choice",
+      "model": "opus-4.5"
+    },
+    {
+      "method": "forced_choice",
+      "model": "opus-5"
+    }
+  ],
+  "excluded": {
+    "gpt-3.5": "0/4,000 valid A/B responses; no recoverable verb choices",
+    "405B_CE0_CE3_nonce": "outside original paper analysis cohort"
+  },
+  "response": "plural-verb choice rate; exact numeric ties assigned .5",
+  "forced_choice": "mean of two answer-order outcomes, kept together",
+  "predictors": "intercept plus NP1/NP2/NP3; singular=0, plural=1",
+  "intercept": "fitted all-singular baseline; not a global plural bias",
+  "model": "additive OLS; all 8 patterns weighted by observed item counts",
+  "bootstrap": {
+    "n_resamples": 10000,
+    "seed": 20261118,
+    "unit": "base item (one V2 item per family)",
+    "stratification": {
+      "PPP": 254,
+      "PPS": 232,
+      "PSP": 257,
+      "PSS": 257,
+      "SPP": 249,
+      "SPS": 248,
+      "SSP": 260,
+      "SSS": 243
+    },
+    "paired_across_models_and_methods": true,
+    "two_orders_resampled_together": true,
+    "ci": "pointwise central 95% percentile; no multiplicity correction",
+    "chunk_size": 200
+  },
+  "tie_sensitivity": {
+    "half": "primary exploratory outcome; each numeric tie contributes .5",
+    "historical": "critical ties wrong; A/B ties select A",
+    "exclude_any_tied_item": "drop a base item if its critical score ties or either A/B order ties",
+    "intervals": "computed for primary half-tie coefficients only"
+  },
+  "interpretation": [
+    "Behavioral associations, not internal causal weights.",
+    "No precision rescoring; bfloat16 master inputs retained.",
+    "Conditional contrasts and pattern residuals check additive summaries.",
+    "Intervals condition on this vocabulary, template and selected models.",
+    "Answer-position bias can mask noun-number sensitivity."
+  ],
+  "versions": {
+    "python": "3.12.13",
+    "numpy": "2.4.3",
+    "pandas": "3.0.2",
+    "matplotlib": "3.10.9"
+  },
+  "outputs": [
+    "results/analysis/v2_noun_pull_v1/coefficients.csv",
+    "results/analysis/v2_noun_pull_v1/tie_sensitivity.csv",
+    "results/analysis/v2_noun_pull_v1/pattern_means.csv",
+    "results/analysis/v2_noun_pull_v1/conditional_contrasts.csv",
+    "results/analysis/v2_noun_pull_v1/fit_diagnostics.csv",
+    "results/analysis/v2_noun_pull_v1/tie_audit.csv",
+    "EACL paper/figures/v2_noun_pull.pdf",
+    "EACL paper/figures/v2_noun_pull.png",
+    "EACL paper/tables/appendix_v2_noun_pull.tex"
+  ]
+}

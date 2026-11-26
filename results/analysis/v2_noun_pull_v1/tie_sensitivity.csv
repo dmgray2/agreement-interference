@@ -1,0 +1,337 @@
+method,model,display_name,term,tie_policy,estimate,n_items,difference_from_half
+critical_region,gpt2,GPT-2 124M,intercept,half,0.120233441482,2000,-1.31838984174e-15
+critical_region,gpt2,GPT-2 124M,NP1,half,0.521015164937,2000,3.44169137634e-15
+critical_region,gpt2,GPT-2 124M,NP2,half,0.0966558576955,2000,2.35922392733e-16
+critical_region,gpt2,GPT-2 124M,NP3,half,0.024024749005,2000,4.51028103754e-17
+critical_region,gpt2,GPT-2 124M,intercept,historical,0.146858479729,2000,0.0266250382469
+critical_region,gpt2,GPT-2 124M,NP1,historical,0.534247476128,2000,0.0132323111909
+critical_region,gpt2,GPT-2 124M,NP2,historical,0.0267326542489,2000,-0.0699232034466
+critical_region,gpt2,GPT-2 124M,NP3,historical,0.0232915345964,2000,-0.000733214408634
+critical_region,gpt2,GPT-2 124M,intercept,exclude_any_tied_item,0.0979438060969,1860,-0.0222896353848
+critical_region,gpt2,GPT-2 124M,NP1,exclude_any_tied_item,0.560141687003,1860,0.0391265220662
+critical_region,gpt2,GPT-2 124M,NP2,exclude_any_tied_item,0.0953068978893,1860,-0.00134895980623
+critical_region,gpt2,GPT-2 124M,NP3,exclude_any_tied_item,0.016062008684,1860,-0.00796274032105
+critical_region,pythia-410m,Pythia 410M,intercept,half,0.449953817749,2000,-1.44328993201e-15
+critical_region,pythia-410m,Pythia 410M,NP1,half,0.0113635083718,2000,3.40005801291e-16
+critical_region,pythia-410m,Pythia 410M,NP2,half,-0.0573156187248,2000,5.34294830601e-16
+critical_region,pythia-410m,Pythia 410M,NP3,half,0.00300991111424,2000,2.0686577451e-16
+critical_region,pythia-410m,Pythia 410M,intercept,historical,0.459902589072,2000,0.00994877132334
+critical_region,pythia-410m,Pythia 410M,NP1,historical,0.0101820755314,2000,-0.00118143284043
+critical_region,pythia-410m,Pythia 410M,NP2,historical,-0.0743407754705,2000,-0.0170251567456
+critical_region,pythia-410m,Pythia 410M,NP3,historical,8.79692266991e-05,2000,-0.00292194188754
+critical_region,pythia-410m,Pythia 410M,intercept,exclude_any_tied_item,0.449088824972,1966,-0.000864992777489
+critical_region,pythia-410m,Pythia 410M,NP1,exclude_any_tied_item,0.0113352435781,1966,-2.82647937444e-05
+critical_region,pythia-410m,Pythia 410M,NP2,exclude_any_tied_item,-0.0584788076498,1966,-0.00116318892495
+critical_region,pythia-410m,Pythia 410M,NP3,exclude_any_tied_item,0.00337197842368,1966,0.000362067309437
+critical_region,llama-3.2-1b,Llama 3.2 1B,intercept,half,0.392173125821,2000,6.66133814775e-16
+critical_region,llama-3.2-1b,Llama 3.2 1B,NP1,half,0.376876577088,2000,-2.44249065418e-15
+critical_region,llama-3.2-1b,Llama 3.2 1B,NP2,half,-0.0554631447933,2000,3.46944695195e-17
+critical_region,llama-3.2-1b,Llama 3.2 1B,NP3,half,0.0066641594132,2000,-7.89299181569e-17
+critical_region,llama-3.2-1b,Llama 3.2 1B,intercept,historical,0.400577618496,2000,0.00840449267527
+critical_region,llama-3.2-1b,Llama 3.2 1B,NP1,historical,0.373193242507,2000,-0.00368333458113
+critical_region,llama-3.2-1b,Llama 3.2 1B,NP2,historical,-0.0709532535675,2000,-0.0154901087741
+critical_region,llama-3.2-1b,Llama 3.2 1B,NP3,historical,0.0131358517226,2000,0.00647169230939
+critical_region,llama-3.2-1b,Llama 3.2 1B,intercept,exclude_any_tied_item,0.389723995044,1969,-0.00244913077736
+critical_region,llama-3.2-1b,Llama 3.2 1B,NP1,exclude_any_tied_item,0.381859270357,1969,0.00498269326904
+critical_region,llama-3.2-1b,Llama 3.2 1B,NP2,exclude_any_tied_item,-0.0554818658274,1969,-1.87210340549e-05
+critical_region,llama-3.2-1b,Llama 3.2 1B,NP3,exclude_any_tied_item,0.00610874668567,1969,-0.00055541272753
+critical_region,llama-3.2-3b,Llama 3.2 3B,intercept,half,0.583639150313,2000,-1.66533453694e-15
+critical_region,llama-3.2-3b,Llama 3.2 3B,NP1,half,0.139186809319,2000,-2.49800180541e-16
+critical_region,llama-3.2-3b,Llama 3.2 3B,NP2,half,-0.0646431605497,2000,-1.38777878078e-17
+critical_region,llama-3.2-3b,Llama 3.2 3B,NP3,half,0.0510579577207,2000,-4.16333634234e-17
+critical_region,llama-3.2-3b,Llama 3.2 3B,intercept,historical,0.586566646756,2000,0.00292749644281
+critical_region,llama-3.2-3b,Llama 3.2 3B,NP1,historical,0.140061277907,2000,0.000874468588742
+critical_region,llama-3.2-3b,Llama 3.2 3B,NP2,historical,-0.0756776639952,2000,-0.0110345034455
+critical_region,llama-3.2-3b,Llama 3.2 3B,NP3,historical,0.0531338943997,2000,0.002075936679
+critical_region,llama-3.2-3b,Llama 3.2 3B,intercept,exclude_any_tied_item,0.585020598069,1978,0.00138144775565
+critical_region,llama-3.2-3b,Llama 3.2 3B,NP1,exclude_any_tied_item,0.138903024963,1978,-0.000283784355204
+critical_region,llama-3.2-3b,Llama 3.2 3B,NP2,exclude_any_tied_item,-0.0649743771992,1978,-0.000331216649498
+critical_region,llama-3.2-3b,Llama 3.2 3B,NP3,exclude_any_tied_item,0.0511345475883,1978,7.65898676268e-05
+critical_region,llama-3.1-70b,Llama 3.1 70B,intercept,half,0.325629733419,2000,-9.99200722163e-16
+critical_region,llama-3.1-70b,Llama 3.1 70B,NP1,half,0.195410822895,2000,9.43689570931e-16
+critical_region,llama-3.1-70b,Llama 3.1 70B,NP2,half,0.0923478517787,2000,1.11022302463e-16
+critical_region,llama-3.1-70b,Llama 3.1 70B,NP3,half,0.302501737224,2000,-3.88578058619e-16
+critical_region,llama-3.1-70b,Llama 3.1 70B,intercept,historical,0.330044511784,2000,0.00441477836476
+critical_region,llama-3.1-70b,Llama 3.1 70B,NP1,historical,0.200257289776,2000,0.0048464668811
+critical_region,llama-3.1-70b,Llama 3.1 70B,NP2,historical,0.0783970078155,2000,-0.0139508439632
+critical_region,llama-3.1-70b,Llama 3.1 70B,NP3,historical,0.302538654876,2000,3.69176521356e-05
+critical_region,llama-3.1-70b,Llama 3.1 70B,intercept,exclude_any_tied_item,0.323544825473,1972,-0.00208490794617
+critical_region,llama-3.1-70b,Llama 3.1 70B,NP1,exclude_any_tied_item,0.197283029091,1972,0.00187220619622
+critical_region,llama-3.1-70b,Llama 3.1 70B,NP2,exclude_any_tied_item,0.0926952396459,1972,0.000347387867212
+critical_region,llama-3.1-70b,Llama 3.1 70B,NP3,exclude_any_tied_item,0.305975248693,1972,0.0034735114685
+critical_region,qwen2.5-1.5b,Qwen2.5 1.5B,intercept,half,0.364954771415,2000,-1.72084568817e-15
+critical_region,qwen2.5-1.5b,Qwen2.5 1.5B,NP1,half,0.347315334636,2000,1.83186799063e-15
+critical_region,qwen2.5-1.5b,Qwen2.5 1.5B,NP2,half,-0.0354018221316,2000,-1.5959455979e-16
+critical_region,qwen2.5-1.5b,Qwen2.5 1.5B,NP3,half,0.147622660481,2000,8.32667268469e-17
+critical_region,qwen2.5-1.5b,Qwen2.5 1.5B,intercept,historical,0.374900484805,2000,0.00994571339013
+critical_region,qwen2.5-1.5b,Qwen2.5 1.5B,NP1,historical,0.341145565206,2000,-0.00616976942953
+critical_region,qwen2.5-1.5b,Qwen2.5 1.5B,NP2,historical,-0.0504638676968,2000,-0.0150620455652
+critical_region,qwen2.5-1.5b,Qwen2.5 1.5B,NP3,historical,0.149666124638,2000,0.00204346415671
+critical_region,qwen2.5-1.5b,Qwen2.5 1.5B,intercept,exclude_any_tied_item,0.363397664262,1970,-0.00155710715218
+critical_region,qwen2.5-1.5b,Qwen2.5 1.5B,NP1,exclude_any_tied_item,0.350197144408,1970,0.00288180977285
+critical_region,qwen2.5-1.5b,Qwen2.5 1.5B,NP2,exclude_any_tied_item,-0.0342506658492,1970,0.00115115628237
+critical_region,qwen2.5-1.5b,Qwen2.5 1.5B,NP3,exclude_any_tied_item,0.147806706383,1970,0.000184045902066
+critical_region,qwen2.5-3b,Qwen2.5 3B,intercept,half,0.320835794268,2000,-1.11022302463e-16
+critical_region,qwen2.5-3b,Qwen2.5 3B,NP1,half,0.236684198859,2000,-1.36002320517e-15
+critical_region,qwen2.5-3b,Qwen2.5 3B,NP2,half,0.0173798924473,2000,1.63064006742e-16
+critical_region,qwen2.5-3b,Qwen2.5 3B,NP3,half,0.253489978753,2000,1.11022302463e-16
+critical_region,qwen2.5-3b,Qwen2.5 3B,intercept,historical,0.332770493986,2000,0.0119346997171
+critical_region,qwen2.5-3b,Qwen2.5 3B,NP1,historical,0.236479742445,2000,-0.000204456414636
+critical_region,qwen2.5-3b,Qwen2.5 3B,NP2,historical,-0.00157016283609,2000,-0.0189500552834
+critical_region,qwen2.5-3b,Qwen2.5 3B,NP3,historical,0.251492882012,2000,-0.00199709674122
+critical_region,qwen2.5-3b,Qwen2.5 3B,intercept,exclude_any_tied_item,0.317993289815,1962,-0.00284250445313
+critical_region,qwen2.5-3b,Qwen2.5 3B,NP1,exclude_any_tied_item,0.240788718171,1962,0.00410451931149
+critical_region,qwen2.5-3b,Qwen2.5 3B,NP2,exclude_any_tied_item,0.0178580619021,1962,0.000478169454803
+critical_region,qwen2.5-3b,Qwen2.5 3B,NP3,exclude_any_tied_item,0.257324291559,1962,0.00383431280608
+critical_region,qwen2.5-7b,Qwen2.5 7B,intercept,half,0.47361996972,2000,-1.16573417586e-15
+critical_region,qwen2.5-7b,Qwen2.5 7B,NP1,half,0.173325872274,2000,-4.16333634234e-16
+critical_region,qwen2.5-7b,Qwen2.5 7B,NP2,half,0.00957516277496,2000,1.61329283266e-16
+critical_region,qwen2.5-7b,Qwen2.5 7B,NP3,half,0.139727258115,2000,-2.77555756156e-17
+critical_region,qwen2.5-7b,Qwen2.5 7B,intercept,historical,0.482105190698,2000,0.00848522097721
+critical_region,qwen2.5-7b,Qwen2.5 7B,NP1,historical,0.172708463237,2000,-0.000617409037289
+critical_region,qwen2.5-7b,Qwen2.5 7B,NP2,historical,-0.00191151126344,2000,-0.0114866740384
+critical_region,qwen2.5-7b,Qwen2.5 7B,NP3,historical,0.135255069549,2000,-0.00447218856606
+critical_region,qwen2.5-7b,Qwen2.5 7B,intercept,exclude_any_tied_item,0.473197907355,1977,-0.000422062365626
+critical_region,qwen2.5-7b,Qwen2.5 7B,NP1,exclude_any_tied_item,0.174316432618,1977,0.000990560343693
+critical_region,qwen2.5-7b,Qwen2.5 7B,NP2,exclude_any_tied_item,0.0103307294625,1977,0.000755566687525
+critical_region,qwen2.5-7b,Qwen2.5 7B,NP3,exclude_any_tied_item,0.141393221196,1977,0.00166596308065
+critical_region,qwen2.5-14b,Qwen2.5 14B,intercept,half,0.322458843747,2000,-1.88737914186e-15
+critical_region,qwen2.5-14b,Qwen2.5 14B,NP1,half,0.285596301365,2000,1.83186799063e-15
+critical_region,qwen2.5-14b,Qwen2.5 14B,NP2,half,0.0163202953341,2000,-6.24500451352e-17
+critical_region,qwen2.5-14b,Qwen2.5 14B,NP3,half,0.291610941988,2000,7.21644966006e-16
+critical_region,qwen2.5-14b,Qwen2.5 14B,intercept,historical,0.326444194912,2000,0.00398535116431
+critical_region,qwen2.5-14b,Qwen2.5 14B,NP1,historical,0.286534662007,2000,0.000938360642464
+critical_region,qwen2.5-14b,Qwen2.5 14B,NP2,historical,0.0103525818025,2000,-0.00596771353165
+critical_region,qwen2.5-14b,Qwen2.5 14B,NP3,historical,0.289608196331,2000,-0.00200274565635
+critical_region,qwen2.5-14b,Qwen2.5 14B,intercept,exclude_any_tied_item,0.322186066793,1988,-0.000272776953805
+critical_region,qwen2.5-14b,Qwen2.5 14B,NP1,exclude_any_tied_item,0.285937685819,1988,0.000341384454656
+critical_region,qwen2.5-14b,Qwen2.5 14B,NP2,exclude_any_tied_item,0.0164986838585,1988,0.000178388524346
+critical_region,qwen2.5-14b,Qwen2.5 14B,NP3,exclude_any_tied_item,0.292758589659,1988,0.00114764767179
+critical_region,qwen2.5-32b,Qwen2.5 32B,intercept,half,0.356700911148,2000,-4.4408920985e-16
+critical_region,qwen2.5-32b,Qwen2.5 32B,NP1,half,0.226370269755,2000,-7.49400541622e-16
+critical_region,qwen2.5-32b,Qwen2.5 32B,NP2,half,0.0296625940939,2000,1.56125112838e-16
+critical_region,qwen2.5-32b,Qwen2.5 32B,NP3,half,0.228009390152,2000,-1.11022302463e-16
+critical_region,qwen2.5-32b,Qwen2.5 32B,intercept,historical,0.365192385589,2000,0.00849147444118
+critical_region,qwen2.5-32b,Qwen2.5 32B,NP1,historical,0.223771013261,2000,-0.00259925649376
+critical_region,qwen2.5-32b,Qwen2.5 32B,NP2,historical,0.0201821596628,2000,-0.00948043443106
+critical_region,qwen2.5-32b,Qwen2.5 32B,NP3,historical,0.225495247659,2000,-0.00251414249301
+critical_region,qwen2.5-32b,Qwen2.5 32B,intercept,exclude_any_tied_item,0.354966304,1981,-0.00173460714789
+critical_region,qwen2.5-32b,Qwen2.5 32B,NP1,exclude_any_tied_item,0.228207587105,1981,0.00183731735005
+critical_region,qwen2.5-32b,Qwen2.5 32B,NP2,exclude_any_tied_item,0.0306423411511,1981,0.000979747057253
+critical_region,qwen2.5-32b,Qwen2.5 32B,NP3,exclude_any_tied_item,0.23022069347,1981,0.0022113033177
+critical_region,qwen2.5-72b,Qwen2.5 72B,intercept,half,0.179304465571,2000,-2.77555756156e-16
+critical_region,qwen2.5-72b,Qwen2.5 72B,NP1,half,0.303755536465,2000,3.88578058619e-16
+critical_region,qwen2.5-72b,Qwen2.5 72B,NP2,half,0.0588440966852,2000,6.93889390391e-17
+critical_region,qwen2.5-72b,Qwen2.5 72B,NP3,half,0.445874299364,2000,-2.77555756156e-16
+critical_region,qwen2.5-72b,Qwen2.5 72B,intercept,historical,0.184284332832,2000,0.00497986726074
+critical_region,qwen2.5-72b,Qwen2.5 72B,NP1,historical,0.305683466842,2000,0.00192793037747
+critical_region,qwen2.5-72b,Qwen2.5 72B,NP2,historical,0.0519211219558,2000,-0.0069229747294
+critical_region,qwen2.5-72b,Qwen2.5 72B,NP3,historical,0.443832749619,2000,-0.00204154974506
+critical_region,qwen2.5-72b,Qwen2.5 72B,intercept,exclude_any_tied_item,0.177416777319,1986,-0.00188768825254
+critical_region,qwen2.5-72b,Qwen2.5 72B,NP1,exclude_any_tied_item,0.305322423101,1986,0.0015668866357
+critical_region,qwen2.5-72b,Qwen2.5 72B,NP2,exclude_any_tied_item,0.0590649279022,1986,0.000220831217014
+critical_region,qwen2.5-72b,Qwen2.5 72B,NP3,exclude_any_tied_item,0.44880607077,1986,0.0029317714061
+forced_choice,gpt2,GPT-2 124M,intercept,half,0.5,2000,-2.10942374679e-15
+forced_choice,gpt2,GPT-2 124M,NP1,half,6.62102269324e-17,2000,5.23324391246e-17
+forced_choice,gpt2,GPT-2 124M,NP2,half,2.94930112157e-16,2000,2.67174536542e-16
+forced_choice,gpt2,GPT-2 124M,NP3,half,1.08704991212e-16,2000,1.2258277902e-16
+forced_choice,gpt2,GPT-2 124M,intercept,historical,0.5,2000,-2.10942374679e-15
+forced_choice,gpt2,GPT-2 124M,NP1,historical,6.62102269324e-17,2000,5.23324391246e-17
+forced_choice,gpt2,GPT-2 124M,NP2,historical,2.94930112157e-16,2000,2.67174536542e-16
+forced_choice,gpt2,GPT-2 124M,NP3,historical,1.08704991212e-16,2000,1.2258277902e-16
+forced_choice,gpt2,GPT-2 124M,intercept,exclude_any_tied_item,0.5,2000,-2.10942374679e-15
+forced_choice,gpt2,GPT-2 124M,NP1,exclude_any_tied_item,6.62102269324e-17,2000,5.23324391246e-17
+forced_choice,gpt2,GPT-2 124M,NP2,exclude_any_tied_item,2.94930112157e-16,2000,2.67174536542e-16
+forced_choice,gpt2,GPT-2 124M,NP3,exclude_any_tied_item,1.08704991212e-16,2000,1.2258277902e-16
+forced_choice,pythia-410m,Pythia 410M,intercept,half,0.499240243121,2000,-2.33146835171e-15
+forced_choice,pythia-410m,Pythia 410M,NP1,half,0.000498024756855,2000,8.39172481504e-17
+forced_choice,pythia-410m,Pythia 410M,NP2,half,2.14090654232e-06,2000,2.44379169678e-16
+forced_choice,pythia-410m,Pythia 410M,NP3,half,0.000999396558482,2000,7.329206686e-17
+forced_choice,pythia-410m,Pythia 410M,intercept,historical,0.499497127979,2000,0.000256884858303
+forced_choice,pythia-410m,Pythia 410M,NP1,historical,0.000504663336595,2000,6.63857974052e-06
+forced_choice,pythia-410m,Pythia 410M,NP2,historical,0.000512571267725,2000,0.000510430361183
+forced_choice,pythia-410m,Pythia 410M,NP3,historical,0.000487473674763,2000,-0.000511922883719
+forced_choice,pythia-410m,Pythia 410M,intercept,exclude_any_tied_item,0.499497143234,1998,0.000256900112967
+forced_choice,pythia-410m,Pythia 410M,NP1,exclude_any_tied_item,0.000505175555055,1998,7.15079820042e-06
+forced_choice,pythia-410m,Pythia 410M,NP2,exclude_any_tied_item,0.000513113485645,1998,0.000510972579103
+forced_choice,pythia-410m,Pythia 410M,NP3,exclude_any_tied_item,0.000486934420842,1998,-0.00051246213764
+forced_choice,llama-3.2-1b,Llama 3.2 1B,intercept,half,0.333350911904,2000,-1.38777878078e-15
+forced_choice,llama-3.2-1b,Llama 3.2 1B,NP1,half,0.0393627935633,2000,7.6327832943e-17
+forced_choice,llama-3.2-1b,Llama 3.2 1B,NP2,half,0.0136827089199,2000,1.80411241502e-16
+forced_choice,llama-3.2-1b,Llama 3.2 1B,NP3,half,0.018858117412,2000,9.02056207508e-17
+forced_choice,llama-3.2-1b,Llama 3.2 1B,intercept,historical,0.359422055001,2000,0.0260711430973
+forced_choice,llama-3.2-1b,Llama 3.2 1B,NP1,historical,0.0330950789255,2000,-0.00626771463779
+forced_choice,llama-3.2-1b,Llama 3.2 1B,NP2,historical,0.0126726927168,2000,-0.00101001620315
+forced_choice,llama-3.2-1b,Llama 3.2 1B,NP3,historical,0.0221603471874,2000,0.0033022297753
+forced_choice,llama-3.2-1b,Llama 3.2 1B,intercept,exclude_any_tied_item,0.350826748304,1450,0.0174758364001
+forced_choice,llama-3.2-1b,Llama 3.2 1B,NP1,exclude_any_tied_item,0.0478901681947,1450,0.00852737463136
+forced_choice,llama-3.2-1b,Llama 3.2 1B,NP2,exclude_any_tied_item,0.0113462356883,1450,-0.00233647323163
+forced_choice,llama-3.2-1b,Llama 3.2 1B,NP3,exclude_any_tied_item,0.0194160850551,1450,0.000557967643076
+forced_choice,llama-3.2-3b,Llama 3.2 3B,intercept,half,0.475117335178,2000,-2.05391259556e-15
+forced_choice,llama-3.2-3b,Llama 3.2 3B,NP1,half,0.0333126324571,2000,-6.93889390391e-17
+forced_choice,llama-3.2-3b,Llama 3.2 3B,NP2,half,0.00540652969688,2000,2.66280053562e-16
+forced_choice,llama-3.2-3b,Llama 3.2 3B,NP3,half,-0.00158031520018,2000,1.26201132877e-16
+forced_choice,llama-3.2-3b,Llama 3.2 3B,intercept,historical,0.473330467367,2000,-0.00178686781047
+forced_choice,llama-3.2-3b,Llama 3.2 3B,NP1,historical,0.0380462956396,2000,0.00473366318255
+forced_choice,llama-3.2-3b,Llama 3.2 3B,NP2,historical,0.00423229877603,2000,-0.00117423092085
+forced_choice,llama-3.2-3b,Llama 3.2 3B,NP3,historical,0.000129823460193,2000,0.00171013866037
+forced_choice,llama-3.2-3b,Llama 3.2 3B,intercept,exclude_any_tied_item,0.483018998555,1909,0.00790166337711
+forced_choice,llama-3.2-3b,Llama 3.2 3B,NP1,exclude_any_tied_item,0.0200377898796,1909,-0.0132748425775
+forced_choice,llama-3.2-3b,Llama 3.2 3B,NP2,exclude_any_tied_item,0.00650858509886,1909,0.00110205540198
+forced_choice,llama-3.2-3b,Llama 3.2 3B,NP3,exclude_any_tied_item,-0.000956876403171,1909,0.00062343879701
+forced_choice,llama-3.1-70b,Llama 3.1 70B,intercept,half,0.326101997172,2000,-1.33226762955e-15
+forced_choice,llama-3.1-70b,Llama 3.1 70B,NP1,half,0.0481877640645,2000,2.70616862252e-16
+forced_choice,llama-3.1-70b,Llama 3.1 70B,NP2,half,0.075742137799,2000,1.94289029309e-16
+forced_choice,llama-3.1-70b,Llama 3.1 70B,NP3,half,0.0726997256219,2000,4.16333634234e-17
+forced_choice,llama-3.1-70b,Llama 3.1 70B,intercept,historical,0.307212469578,2000,-0.0188895275948
+forced_choice,llama-3.1-70b,Llama 3.1 70B,NP1,historical,0.063720977526,2000,0.0155332134614
+forced_choice,llama-3.1-70b,Llama 3.1 70B,NP2,historical,0.0807754620911,2000,0.00503332429214
+forced_choice,llama-3.1-70b,Llama 3.1 70B,NP3,historical,0.083776278513,2000,0.0110765528911
+forced_choice,llama-3.1-70b,Llama 3.1 70B,intercept,exclude_any_tied_item,0.327135299242,1830,0.00103330206927
+forced_choice,llama-3.1-70b,Llama 3.1 70B,NP1,exclude_any_tied_item,0.0412943011799,1830,-0.00689346288465
+forced_choice,llama-3.1-70b,Llama 3.1 70B,NP2,exclude_any_tied_item,0.0785367217626,1830,0.00279458396364
+forced_choice,llama-3.1-70b,Llama 3.1 70B,NP3,exclude_any_tied_item,0.0697611604271,1830,-0.00293856519475
+forced_choice,qwen2.5-1.5b,Qwen2.5 1.5B,intercept,half,0.459223268895,2000,-1.88737914186e-15
+forced_choice,qwen2.5-1.5b,Qwen2.5 1.5B,NP1,half,0.037539591426,2000,1.04083408559e-16
+forced_choice,qwen2.5-1.5b,Qwen2.5 1.5B,NP2,half,0.00594653390755,2000,2.90566182226e-16
+forced_choice,qwen2.5-1.5b,Qwen2.5 1.5B,NP3,half,0.0129102234833,2000,1.05818132035e-16
+forced_choice,qwen2.5-1.5b,Qwen2.5 1.5B,intercept,historical,0.449153551904,2000,-0.0100697169911
+forced_choice,qwen2.5-1.5b,Qwen2.5 1.5B,NP1,historical,0.047549993226,2000,0.0100104018
+forced_choice,qwen2.5-1.5b,Qwen2.5 1.5B,NP2,historical,0.00745327593075,2000,0.0015067420232
+forced_choice,qwen2.5-1.5b,Qwen2.5 1.5B,NP3,historical,0.0159964046338,2000,0.0030861811505
+forced_choice,qwen2.5-1.5b,Qwen2.5 1.5B,intercept,exclude_any_tied_item,0.468159766027,1960,0.00893649713188
+forced_choice,qwen2.5-1.5b,Qwen2.5 1.5B,NP1,exclude_any_tied_item,0.0283976909981,1960,-0.00914190042788
+forced_choice,qwen2.5-1.5b,Qwen2.5 1.5B,NP2,exclude_any_tied_item,0.00458056504349,1960,-0.00136596886406
+forced_choice,qwen2.5-1.5b,Qwen2.5 1.5B,NP3,exclude_any_tied_item,0.0103021519118,1960,-0.0026080715715
+forced_choice,qwen2.5-3b,Qwen2.5 3B,intercept,half,0.494721276147,2000,-2.10942374679e-15
+forced_choice,qwen2.5-3b,Qwen2.5 3B,NP1,half,-0.00423520302843,2000,3.29597460436e-17
+forced_choice,qwen2.5-3b,Qwen2.5 3B,NP2,half,0.00259200761944,2000,2.7582103268e-16
+forced_choice,qwen2.5-3b,Qwen2.5 3B,NP3,half,0.00685755612306,2000,6.07153216592e-17
+forced_choice,qwen2.5-3b,Qwen2.5 3B,intercept,historical,0.493467553076,2000,-0.0012537230708
+forced_choice,qwen2.5-3b,Qwen2.5 3B,NP1,historical,-0.00648130531945,2000,-0.00224610229101
+forced_choice,qwen2.5-3b,Qwen2.5 3B,NP2,historical,0.00327324226463,2000,0.000681234645187
+forced_choice,qwen2.5-3b,Qwen2.5 3B,NP3,historical,0.00865549217835,2000,0.00179793605529
+forced_choice,qwen2.5-3b,Qwen2.5 3B,intercept,exclude_any_tied_item,0.495940175592,1989,0.00121889944563
+forced_choice,qwen2.5-3b,Qwen2.5 3B,NP1,exclude_any_tied_item,-0.00202486969662,1989,0.00221033333181
+forced_choice,qwen2.5-3b,Qwen2.5 3B,NP2,exclude_any_tied_item,0.00191998315726,1989,-0.000672024462179
+forced_choice,qwen2.5-3b,Qwen2.5 3B,NP3,exclude_any_tied_item,0.00510686269753,1989,-0.00175069342553
+forced_choice,qwen2.5-7b,Qwen2.5 7B,intercept,half,0.321558000825,2000,-1.27675647832e-15
+forced_choice,qwen2.5-7b,Qwen2.5 7B,NP1,half,0.0548034508201,2000,2.35922392733e-16
+forced_choice,qwen2.5-7b,Qwen2.5 7B,NP2,half,0.0704672327925,2000,6.93889390391e-17
+forced_choice,qwen2.5-7b,Qwen2.5 7B,NP3,half,0.110844370289,2000,1.11022302463e-16
+forced_choice,qwen2.5-7b,Qwen2.5 7B,intercept,historical,0.299425637701,2000,-0.0221323631237
+forced_choice,qwen2.5-7b,Qwen2.5 7B,NP1,historical,0.0730872262241,2000,0.018283775404
+forced_choice,qwen2.5-7b,Qwen2.5 7B,NP2,historical,0.0746317113105,2000,0.00416447851799
+forced_choice,qwen2.5-7b,Qwen2.5 7B,NP3,historical,0.116861300152,2000,0.00601692986289
+forced_choice,qwen2.5-7b,Qwen2.5 7B,intercept,exclude_any_tied_item,0.32626175028,1789,0.00470374945467
+forced_choice,qwen2.5-7b,Qwen2.5 7B,NP1,exclude_any_tied_item,0.0407833756365,1789,-0.0140200751836
+forced_choice,qwen2.5-7b,Qwen2.5 7B,NP2,exclude_any_tied_item,0.0762408619702,1789,0.00577362917763
+forced_choice,qwen2.5-7b,Qwen2.5 7B,NP3,exclude_any_tied_item,0.113887060633,1789,0.00304269034374
+forced_choice,qwen2.5-14b,Qwen2.5 14B,intercept,half,0.383513020476,2000,-1.83186799063e-15
+forced_choice,qwen2.5-14b,Qwen2.5 14B,NP1,half,0.0896616641678,2000,4.30211422042e-16
+forced_choice,qwen2.5-14b,Qwen2.5 14B,NP2,half,0.050130596157,2000,1.17961196366e-16
+forced_choice,qwen2.5-14b,Qwen2.5 14B,NP3,half,0.0698861949585,2000,4.71844785466e-16
+forced_choice,qwen2.5-14b,Qwen2.5 14B,intercept,historical,0.368653801969,2000,-0.014859218507
+forced_choice,qwen2.5-14b,Qwen2.5 14B,NP1,historical,0.101458973586,2000,0.0117973094183
+forced_choice,qwen2.5-14b,Qwen2.5 14B,NP2,historical,0.0564704916389,2000,0.0063398954819
+forced_choice,qwen2.5-14b,Qwen2.5 14B,NP3,historical,0.0811009109751,2000,0.0112147160167
+forced_choice,qwen2.5-14b,Qwen2.5 14B,intercept,exclude_any_tied_item,0.392522099373,1941,0.00900907889682
+forced_choice,qwen2.5-14b,Qwen2.5 14B,NP1,exclude_any_tied_item,0.0819769691982,1941,-0.0076846949696
+forced_choice,qwen2.5-14b,Qwen2.5 14B,NP2,exclude_any_tied_item,0.0471130024786,1941,-0.00301759367837
+forced_choice,qwen2.5-14b,Qwen2.5 14B,NP3,exclude_any_tied_item,0.0626011726067,1941,-0.0072850223518
+forced_choice,qwen2.5-32b,Qwen2.5 32B,intercept,half,0.175642856662,2000,2.77555756156e-17
+forced_choice,qwen2.5-32b,Qwen2.5 32B,NP1,half,0.31062947981,2000,-7.77156117238e-16
+forced_choice,qwen2.5-32b,Qwen2.5 32B,NP2,half,0.15150455176,2000,2.49800180541e-16
+forced_choice,qwen2.5-32b,Qwen2.5 32B,NP3,half,0.143535129889,2000,5.55111512313e-17
+forced_choice,qwen2.5-32b,Qwen2.5 32B,intercept,historical,0.158532434083,2000,-0.0171104225787
+forced_choice,qwen2.5-32b,Qwen2.5 32B,NP1,historical,0.329422235895,2000,0.018792756085
+forced_choice,qwen2.5-32b,Qwen2.5 32B,NP2,historical,0.156355710929,2000,0.00485115916988
+forced_choice,qwen2.5-32b,Qwen2.5 32B,NP3,historical,0.148838462839,2000,0.00530333294938
+forced_choice,qwen2.5-32b,Qwen2.5 32B,intercept,exclude_any_tied_item,0.171967342747,1901,-0.00367551391469
+forced_choice,qwen2.5-32b,Qwen2.5 32B,NP1,exclude_any_tied_item,0.311312116282,1901,0.000682636471969
+forced_choice,qwen2.5-32b,Qwen2.5 32B,NP2,exclude_any_tied_item,0.156152220865,1901,0.00464766910561
+forced_choice,qwen2.5-32b,Qwen2.5 32B,NP3,exclude_any_tied_item,0.149687658803,1901,0.00615252891386
+forced_choice,qwen2.5-72b,Qwen2.5 72B,intercept,half,0.035807936756,2000,-3.81639164715e-16
+forced_choice,qwen2.5-72b,Qwen2.5 72B,NP1,half,0.404886863908,2000,2.38697950294e-15
+forced_choice,qwen2.5-72b,Qwen2.5 72B,NP2,half,0.0831636365171,2000,1.94289029309e-16
+forced_choice,qwen2.5-72b,Qwen2.5 72B,NP3,half,0.263968046945,2000,-5.55111512313e-16
+forced_choice,qwen2.5-72b,Qwen2.5 72B,intercept,historical,0.0443502658272,2000,0.00854232907123
+forced_choice,qwen2.5-72b,Qwen2.5 72B,NP1,historical,0.403332537873,2000,-0.00155432603455
+forced_choice,qwen2.5-72b,Qwen2.5 72B,NP2,historical,0.0766815176444,2000,-0.00648211887274
+forced_choice,qwen2.5-72b,Qwen2.5 72B,NP3,historical,0.255479410419,2000,-0.00848863652551
+forced_choice,qwen2.5-72b,Qwen2.5 72B,intercept,exclude_any_tied_item,0.0219891290861,1868,-0.0138188076699
+forced_choice,qwen2.5-72b,Qwen2.5 72B,NP1,exclude_any_tied_item,0.415592902387,1868,0.0107060384796
+forced_choice,qwen2.5-72b,Qwen2.5 72B,NP2,exclude_any_tied_item,0.0856525553829,1868,0.00248891886578
+forced_choice,qwen2.5-72b,Qwen2.5 72B,NP3,exclude_any_tied_item,0.26821690734,1868,0.00424886039507
+forced_choice,gpt-4.1,GPT-4.1,intercept,half,0.40686375699,2000,-2.33146835171e-15
+forced_choice,gpt-4.1,GPT-4.1,NP1,half,0.28169963316,2000,2.05391259556e-15
+forced_choice,gpt-4.1,GPT-4.1,NP2,half,0.0781716615299,2000,-2.77555756156e-17
+forced_choice,gpt-4.1,GPT-4.1,NP3,half,0.0801275584075,2000,4.4408920985e-16
+forced_choice,gpt-4.1,GPT-4.1,intercept,historical,0.40686375699,2000,-2.33146835171e-15
+forced_choice,gpt-4.1,GPT-4.1,NP1,historical,0.28169963316,2000,2.05391259556e-15
+forced_choice,gpt-4.1,GPT-4.1,NP2,historical,0.0781716615299,2000,-2.77555756156e-17
+forced_choice,gpt-4.1,GPT-4.1,NP3,historical,0.0801275584075,2000,4.4408920985e-16
+forced_choice,gpt-4.1,GPT-4.1,intercept,exclude_any_tied_item,0.40686375699,2000,-2.33146835171e-15
+forced_choice,gpt-4.1,GPT-4.1,NP1,exclude_any_tied_item,0.28169963316,2000,2.05391259556e-15
+forced_choice,gpt-4.1,GPT-4.1,NP2,exclude_any_tied_item,0.0781716615299,2000,-2.77555756156e-17
+forced_choice,gpt-4.1,GPT-4.1,NP3,exclude_any_tied_item,0.0801275584075,2000,4.4408920985e-16
+forced_choice,gpt-5,GPT-5,intercept,half,0.284727925699,2000,-6.66133814775e-16
+forced_choice,gpt-5,GPT-5,NP1,half,0.335108413156,2000,-2.77555756156e-16
+forced_choice,gpt-5,GPT-5,NP2,half,0.0720804557942,2000,2.49800180541e-16
+forced_choice,gpt-5,GPT-5,NP3,half,0.0922359288229,2000,2.77555756156e-17
+forced_choice,gpt-5,GPT-5,intercept,historical,0.284727925699,2000,-6.66133814775e-16
+forced_choice,gpt-5,GPT-5,NP1,historical,0.335108413156,2000,-2.77555756156e-16
+forced_choice,gpt-5,GPT-5,NP2,historical,0.0720804557942,2000,2.49800180541e-16
+forced_choice,gpt-5,GPT-5,NP3,historical,0.0922359288229,2000,2.77555756156e-17
+forced_choice,gpt-5,GPT-5,intercept,exclude_any_tied_item,0.284727925699,2000,-6.66133814775e-16
+forced_choice,gpt-5,GPT-5,NP1,exclude_any_tied_item,0.335108413156,2000,-2.77555756156e-16
+forced_choice,gpt-5,GPT-5,NP2,exclude_any_tied_item,0.0720804557942,2000,2.49800180541e-16
+forced_choice,gpt-5,GPT-5,NP3,exclude_any_tied_item,0.0922359288229,2000,2.77555756156e-17
+forced_choice,gpt-5.6-sol,GPT-5.6 Sol,intercept,half,0.194767899261,2000,-5.27355936697e-16
+forced_choice,gpt-5.6-sol,GPT-5.6 Sol,NP1,half,0.247657205243,2000,4.99600361081e-16
+forced_choice,gpt-5.6-sol,GPT-5.6 Sol,NP2,half,0.297964761168,2000,1.11022302463e-16
+forced_choice,gpt-5.6-sol,GPT-5.6 Sol,NP3,half,0.0602035647131,2000,2.01227923213e-16
+forced_choice,gpt-5.6-sol,GPT-5.6 Sol,intercept,historical,0.194767899261,2000,-5.27355936697e-16
+forced_choice,gpt-5.6-sol,GPT-5.6 Sol,NP1,historical,0.247657205243,2000,4.99600361081e-16
+forced_choice,gpt-5.6-sol,GPT-5.6 Sol,NP2,historical,0.297964761168,2000,1.11022302463e-16
+forced_choice,gpt-5.6-sol,GPT-5.6 Sol,NP3,historical,0.0602035647131,2000,2.01227923213e-16
+forced_choice,gpt-5.6-sol,GPT-5.6 Sol,intercept,exclude_any_tied_item,0.194767899261,2000,-5.27355936697e-16
+forced_choice,gpt-5.6-sol,GPT-5.6 Sol,NP1,exclude_any_tied_item,0.247657205243,2000,4.99600361081e-16
+forced_choice,gpt-5.6-sol,GPT-5.6 Sol,NP2,exclude_any_tied_item,0.297964761168,2000,1.11022302463e-16
+forced_choice,gpt-5.6-sol,GPT-5.6 Sol,NP3,exclude_any_tied_item,0.0602035647131,2000,2.01227923213e-16
+forced_choice,opus-4.1,Opus 4.1,intercept,half,0.139685005123,2000,-1.4155343564e-15
+forced_choice,opus-4.1,Opus 4.1,NP1,half,0.260531223634,2000,1.88737914186e-15
+forced_choice,opus-4.1,Opus 4.1,NP2,half,0.353560263798,2000,3.33066907388e-16
+forced_choice,opus-4.1,Opus 4.1,NP3,half,0.178969634125,2000,3.60822483003e-16
+forced_choice,opus-4.1,Opus 4.1,intercept,historical,0.139685005123,2000,-1.4155343564e-15
+forced_choice,opus-4.1,Opus 4.1,NP1,historical,0.260531223634,2000,1.88737914186e-15
+forced_choice,opus-4.1,Opus 4.1,NP2,historical,0.353560263798,2000,3.33066907388e-16
+forced_choice,opus-4.1,Opus 4.1,NP3,historical,0.178969634125,2000,3.60822483003e-16
+forced_choice,opus-4.1,Opus 4.1,intercept,exclude_any_tied_item,0.139685005123,2000,-1.4155343564e-15
+forced_choice,opus-4.1,Opus 4.1,NP1,exclude_any_tied_item,0.260531223634,2000,1.88737914186e-15
+forced_choice,opus-4.1,Opus 4.1,NP2,exclude_any_tied_item,0.353560263798,2000,3.33066907388e-16
+forced_choice,opus-4.1,Opus 4.1,NP3,exclude_any_tied_item,0.178969634125,2000,3.60822483003e-16
+forced_choice,opus-4.5,Opus 4.5,intercept,half,0.0581041548415,2000,3.53883589099e-16
+forced_choice,opus-4.5,Opus 4.5,NP1,half,0.35519495152,2000,-1.55431223448e-15
+forced_choice,opus-4.5,Opus 4.5,NP2,half,0.540349160337,2000,1.66533453694e-15
+forced_choice,opus-4.5,Opus 4.5,NP3,half,0.12444462175,2000,2.91433543964e-16
+forced_choice,opus-4.5,Opus 4.5,intercept,historical,0.0581041548415,2000,3.53883589099e-16
+forced_choice,opus-4.5,Opus 4.5,NP1,historical,0.35519495152,2000,-1.55431223448e-15
+forced_choice,opus-4.5,Opus 4.5,NP2,historical,0.540349160337,2000,1.66533453694e-15
+forced_choice,opus-4.5,Opus 4.5,NP3,historical,0.12444462175,2000,2.91433543964e-16
+forced_choice,opus-4.5,Opus 4.5,intercept,exclude_any_tied_item,0.0581041548415,2000,3.53883589099e-16
+forced_choice,opus-4.5,Opus 4.5,NP1,exclude_any_tied_item,0.35519495152,2000,-1.55431223448e-15
+forced_choice,opus-4.5,Opus 4.5,NP2,exclude_any_tied_item,0.540349160337,2000,1.66533453694e-15
+forced_choice,opus-4.5,Opus 4.5,NP3,exclude_any_tied_item,0.12444462175,2000,2.91433543964e-16
+forced_choice,opus-5,Opus 5,intercept,half,0.187765094553,2000,-2.16493489802e-15
+forced_choice,opus-5,Opus 5,NP1,half,0.304601783657,2000,1.66533453694e-15
+forced_choice,opus-5,Opus 5,NP2,half,0.395916531521,2000,1.94289029309e-15
+forced_choice,opus-5,Opus 5,NP3,half,0.126649094855,2000,5.82867087928e-16
+forced_choice,opus-5,Opus 5,intercept,historical,0.187765094553,2000,-2.16493489802e-15
+forced_choice,opus-5,Opus 5,NP1,historical,0.304601783657,2000,1.66533453694e-15
+forced_choice,opus-5,Opus 5,NP2,historical,0.395916531521,2000,1.94289029309e-15
+forced_choice,opus-5,Opus 5,NP3,historical,0.126649094855,2000,5.82867087928e-16
+forced_choice,opus-5,Opus 5,intercept,exclude_any_tied_item,0.187765094553,2000,-2.16493489802e-15
+forced_choice,opus-5,Opus 5,NP1,exclude_any_tied_item,0.304601783657,2000,1.66533453694e-15
+forced_choice,opus-5,Opus 5,NP2,exclude_any_tied_item,0.395916531521,2000,1.94289029309e-15
+forced_choice,opus-5,Opus 5,NP3,exclude_any_tied_item,0.126649094855,2000,5.82867087928e-16

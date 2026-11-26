@@ -1,0 +1,112 @@
+[
+  {
+    "frontier_model": "gpt5.6",
+    "frontier_fully_congruent_accuracy": 0.8420523138832998,
+    "comparator_type": "equal_weight_mean_across_open_weight_models",
+    "comparator_models": [
+      "gpt2",
+      "pythia410",
+      "llama1b",
+      "llama3b",
+      "llama70b",
+      "qwen1.5b",
+      "qwen3b",
+      "qwen7b",
+      "qwen14b",
+      "qwen32b",
+      "qwen72b"
+    ],
+    "comparator_fully_congruent_accuracy": 0.6081946222791293,
+    "frontier_minus_comparator": 0.23385769160417047,
+    "positive_values_mean": "higher fully congruent V2 accuracy for the frontier model",
+    "bootstrap": {
+      "resampling_unit": "item",
+      "paired_across_models": true,
+      "stratified": true,
+      "stratum_field": "number_pattern",
+      "strata": [
+        "PPP",
+        "PPS",
+        "PSP",
+        "PSS",
+        "SPP",
+        "SPS",
+        "SSP",
+        "SSS"
+      ],
+      "stratum_counts": {
+        "PPP": 254,
+        "PPS": 232,
+        "PSP": 257,
+        "PSS": 257,
+        "SPP": 249,
+        "SPS": 248,
+        "SSP": 260,
+        "SSS": 243
+      },
+      "requested_replicates": 10000,
+      "successful_replicates": 10000,
+      "skipped_replicates": 0,
+      "seed": 20260729,
+      "ci_method": "percentile",
+      "confidence_level": 0.95,
+      "ci_lower": 0.21071885860618256,
+      "ci_upper": 0.25635631973660145
+    }
+  },
+  {
+    "frontier_model": "opus5",
+    "frontier_fully_congruent_accuracy": 0.9537223340040242,
+    "comparator_type": "equal_weight_mean_across_open_weight_models",
+    "comparator_models": [
+      "gpt2",
+      "pythia410",
+      "llama1b",
+      "llama3b",
+      "llama70b",
+      "qwen1.5b",
+      "qwen3b",
+      "qwen7b",
+      "qwen14b",
+      "qwen32b",
+      "qwen72b"
+    ],
+    "comparator_fully_congruent_accuracy": 0.6081946222791293,
+    "frontier_minus_comparator": 0.3455277117248948,
+    "positive_values_mean": "higher fully congruent V2 accuracy for the frontier model",
+    "bootstrap": {
+      "resampling_unit": "item",
+      "paired_across_models": true,
+      "stratified": true,
+      "stratum_field": "number_pattern",
+      "strata": [
+        "PPP",
+        "PPS",
+        "PSP",
+        "PSS",
+        "SPP",
+        "SPS",
+        "SSP",
+        "SSS"
+      ],
+      "stratum_counts": {
+        "PPP": 254,
+        "PPS": 232,
+        "PSP": 257,
+        "PSS": 257,
+        "SPP": 249,
+        "SPS": 248,
+        "SSP": 260,
+        "SSS": 243
+      },
+      "requested_replicates": 10000,
+      "successful_replicates": 10000,
+      "skipped_replicates": 0,
+      "seed": 20260730,
+      "ci_method": "percentile",
+      "confidence_level": 0.95,
+      "ci_lower": 0.33153466252057795,
+      "ci_upper": 0.35915492957746487
+    }
+  }
+]

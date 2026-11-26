@@ -1,0 +1,71 @@
+{
+  "provider": "openai",
+  "requested_model": "gpt-5.6-sol",
+  "contrast": "N3_matches_N2_minus_N3_mismatches_N2",
+  "match_mean": 0.6779661016949152,
+  "mismatch_mean": 0.6173520561685055,
+  "observed_difference": 0.0606140455264097,
+  "positive_values_mean": "higher accuracy when N3 matches N2",
+  "bootstrap": {
+    "resampling_unit": "item",
+    "stratified": true,
+    "stratum_field": "number_pattern",
+    "strata": [
+      "PPP",
+      "PPS",
+      "PSP",
+      "PSS",
+      "SPP",
+      "SPS",
+      "SSP",
+      "SSS"
+    ],
+    "stratum_counts": {
+      "PPP": 254,
+      "PPS": 232,
+      "PSP": 257,
+      "PSS": 257,
+      "SPP": 249,
+      "SPS": 248,
+      "SSP": 260,
+      "SSS": 243
+    },
+    "requested_replicates": 10000,
+    "successful_replicates": 10000,
+    "skipped_replicates": 0,
+    "seed": 20260728,
+    "ci_method": "percentile",
+    "confidence_level": 0.95,
+    "ci_lower": 0.033097147874330816,
+    "ci_upper": 0.08849534645811809
+  },
+  "regime_contrasts": [
+    {
+      "contrast": "both_match_minus_N1_mismatch_only",
+      "both_match_mean": 0.8420523138832998,
+      "mismatch_mean": 0.516798418972332,
+      "observed_difference": 0.3252538949109678,
+      "positive_values_mean": "greater interference from an N1 mismatch",
+      "ci_lower": 0.2877044877963433,
+      "ci_upper": 0.3619587584797321
+    },
+    {
+      "contrast": "both_match_minus_N3_mismatch_only",
+      "both_match_mean": 0.8420523138832998,
+      "mismatch_mean": 0.7032520325203252,
+      "observed_difference": 0.13880028136297462,
+      "positive_values_mean": "greater interference from an N3 mismatch",
+      "ci_lower": 0.10233760285288973,
+      "ci_upper": 0.17518142390930952
+    },
+    {
+      "contrast": "N3_mismatch_only_minus_N1_mismatch_only",
+      "N3_mismatch_only_mean": 0.7032520325203252,
+      "N1_mismatch_only_mean": 0.516798418972332,
+      "observed_difference": 0.18645361354799317,
+      "positive_values_mean": "N1 mismatch causes greater interference than N3 mismatch",
+      "ci_lower": 0.1472693531283139,
+      "ci_upper": 0.22515987017577688
+    }
+  ]
+}

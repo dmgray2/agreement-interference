@@ -1,0 +1,71 @@
+{
+  "provider": "open_weight",
+  "requested_model": "qwen-2.5-3b",
+  "contrast": "N3_matches_N2_minus_N3_mismatches_N2",
+  "match_mean": 0.5059820538384845,
+  "mismatch_mean": 0.4974924774322969,
+  "observed_difference": 0.008489576406187582,
+  "positive_values_mean": "higher accuracy when N3 matches N2",
+  "bootstrap": {
+    "resampling_unit": "item",
+    "stratified": true,
+    "stratum_field": "number_pattern",
+    "strata": [
+      "PPP",
+      "PPS",
+      "PSP",
+      "PSS",
+      "SPP",
+      "SPS",
+      "SSP",
+      "SSS"
+    ],
+    "stratum_counts": {
+      "PPP": 254,
+      "PPS": 232,
+      "PSP": 257,
+      "PSS": 257,
+      "SPP": 249,
+      "SPS": 248,
+      "SSP": 260,
+      "SSS": 243
+    },
+    "requested_replicates": 10000,
+    "successful_replicates": 10000,
+    "skipped_replicates": 0,
+    "seed": 20260728,
+    "ci_method": "percentile",
+    "confidence_level": 0.95,
+    "ci_lower": 0.004483540351863158,
+    "ci_upper": 0.012994116947052492
+  },
+  "regime_contrasts": [
+    {
+      "contrast": "both_match_minus_N1_mismatch_only",
+      "both_match_mean": 0.5030181086519114,
+      "mismatch_mean": 0.508893280632411,
+      "observed_difference": -0.005875171980499583,
+      "positive_values_mean": "greater interference from an N1 mismatch",
+      "ci_lower": -0.012827955877557917,
+      "ci_upper": 0.0001793865962572823
+    },
+    {
+      "contrast": "both_match_minus_N3_mismatch_only",
+      "both_match_mean": 0.5030181086519114,
+      "mismatch_mean": 0.49390243902439024,
+      "observed_difference": 0.009115669627521195,
+      "positive_values_mean": "greater interference from an N3 mismatch",
+      "ci_lower": 0.004044592759810894,
+      "ci_upper": 0.015213230603130956
+    },
+    {
+      "contrast": "N3_mismatch_only_minus_N1_mismatch_only",
+      "N3_mismatch_only_mean": 0.49390243902439024,
+      "N1_mismatch_only_mean": 0.508893280632411,
+      "observed_difference": -0.014990841608020777,
+      "positive_values_mean": "N1 mismatch causes greater interference than N3 mismatch",
+      "ci_lower": -0.023008451428387866,
+      "ci_upper": -0.007989491950255445
+    }
+  ]
+}

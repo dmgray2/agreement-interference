@@ -1,0 +1,409 @@
+[
+  {
+    "model_name": "gpt2",
+    "model_id": "gpt2",
+    "status": "success",
+    "A": {
+      "candidate_string": " A",
+      "prefix_failures": 0,
+      "unique_tokenizations": [
+        {
+          "token_ids": [
+            317
+          ],
+          "tokens": [
+            "ĠA"
+          ],
+          "token_count": 1,
+          "number_of_prompts": 2000
+        }
+      ]
+    },
+    "B": {
+      "candidate_string": " B",
+      "prefix_failures": 0,
+      "unique_tokenizations": [
+        {
+          "token_ids": [
+            347
+          ],
+          "tokens": [
+            "ĠB"
+          ],
+          "token_count": 1,
+          "number_of_prompts": 2000
+        }
+      ]
+    }
+  },
+  {
+    "model_name": "pythia-410m",
+    "model_id": "EleutherAI/pythia-410m",
+    "status": "success",
+    "A": {
+      "candidate_string": " A",
+      "prefix_failures": 0,
+      "unique_tokenizations": [
+        {
+          "token_ids": [
+            329
+          ],
+          "tokens": [
+            "ĠA"
+          ],
+          "token_count": 1,
+          "number_of_prompts": 2000
+        }
+      ]
+    },
+    "B": {
+      "candidate_string": " B",
+      "prefix_failures": 0,
+      "unique_tokenizations": [
+        {
+          "token_ids": [
+            378
+          ],
+          "tokens": [
+            "ĠB"
+          ],
+          "token_count": 1,
+          "number_of_prompts": 2000
+        }
+      ]
+    }
+  },
+  {
+    "model_name": "llama-3.2-1b",
+    "model_id": "meta-llama/Llama-3.2-1B",
+    "status": "success",
+    "A": {
+      "candidate_string": " A",
+      "prefix_failures": 0,
+      "unique_tokenizations": [
+        {
+          "token_ids": [
+            362
+          ],
+          "tokens": [
+            "ĠA"
+          ],
+          "token_count": 1,
+          "number_of_prompts": 2000
+        }
+      ]
+    },
+    "B": {
+      "candidate_string": " B",
+      "prefix_failures": 0,
+      "unique_tokenizations": [
+        {
+          "token_ids": [
+            426
+          ],
+          "tokens": [
+            "ĠB"
+          ],
+          "token_count": 1,
+          "number_of_prompts": 2000
+        }
+      ]
+    }
+  },
+  {
+    "model_name": "llama-3.2-3b",
+    "model_id": "meta-llama/Llama-3.2-3B",
+    "status": "success",
+    "A": {
+      "candidate_string": " A",
+      "prefix_failures": 0,
+      "unique_tokenizations": [
+        {
+          "token_ids": [
+            362
+          ],
+          "tokens": [
+            "ĠA"
+          ],
+          "token_count": 1,
+          "number_of_prompts": 2000
+        }
+      ]
+    },
+    "B": {
+      "candidate_string": " B",
+      "prefix_failures": 0,
+      "unique_tokenizations": [
+        {
+          "token_ids": [
+            426
+          ],
+          "tokens": [
+            "ĠB"
+          ],
+          "token_count": 1,
+          "number_of_prompts": 2000
+        }
+      ]
+    }
+  },
+  {
+    "model_name": "llama-3.1-70b",
+    "model_id": "meta-llama/Llama-3.1-70B",
+    "status": "success",
+    "A": {
+      "candidate_string": " A",
+      "prefix_failures": 0,
+      "unique_tokenizations": [
+        {
+          "token_ids": [
+            362
+          ],
+          "tokens": [
+            "ĠA"
+          ],
+          "token_count": 1,
+          "number_of_prompts": 2000
+        }
+      ]
+    },
+    "B": {
+      "candidate_string": " B",
+      "prefix_failures": 0,
+      "unique_tokenizations": [
+        {
+          "token_ids": [
+            426
+          ],
+          "tokens": [
+            "ĠB"
+          ],
+          "token_count": 1,
+          "number_of_prompts": 2000
+        }
+      ]
+    }
+  },
+  {
+    "model_name": "qwen2.5-1.5b",
+    "model_id": "Qwen/Qwen2.5-1.5B",
+    "status": "success",
+    "A": {
+      "candidate_string": " A",
+      "prefix_failures": 0,
+      "unique_tokenizations": [
+        {
+          "token_ids": [
+            362
+          ],
+          "tokens": [
+            "ĠA"
+          ],
+          "token_count": 1,
+          "number_of_prompts": 2000
+        }
+      ]
+    },
+    "B": {
+      "candidate_string": " B",
+      "prefix_failures": 0,
+      "unique_tokenizations": [
+        {
+          "token_ids": [
+            425
+          ],
+          "tokens": [
+            "ĠB"
+          ],
+          "token_count": 1,
+          "number_of_prompts": 2000
+        }
+      ]
+    }
+  },
+  {
+    "model_name": "qwen2.5-3b",
+    "model_id": "Qwen/Qwen2.5-3B",
+    "status": "success",
+    "A": {
+      "candidate_string": " A",
+      "prefix_failures": 0,
+      "unique_tokenizations": [
+        {
+          "token_ids": [
+            362
+          ],
+          "tokens": [
+            "ĠA"
+          ],
+          "token_count": 1,
+          "number_of_prompts": 2000
+        }
+      ]
+    },
+    "B": {
+      "candidate_string": " B",
+      "prefix_failures": 0,
+      "unique_tokenizations": [
+        {
+          "token_ids": [
+            425
+          ],
+          "tokens": [
+            "ĠB"
+          ],
+          "token_count": 1,
+          "number_of_prompts": 2000
+        }
+      ]
+    }
+  },
+  {
+    "model_name": "qwen2.5-7b",
+    "model_id": "Qwen/Qwen2.5-7B",
+    "status": "success",
+    "A": {
+      "candidate_string": " A",
+      "prefix_failures": 0,
+      "unique_tokenizations": [
+        {
+          "token_ids": [
+            362
+          ],
+          "tokens": [
+            "ĠA"
+          ],
+          "token_count": 1,
+          "number_of_prompts": 2000
+        }
+      ]
+    },
+    "B": {
+      "candidate_string": " B",
+      "prefix_failures": 0,
+      "unique_tokenizations": [
+        {
+          "token_ids": [
+            425
+          ],
+          "tokens": [
+            "ĠB"
+          ],
+          "token_count": 1,
+          "number_of_prompts": 2000
+        }
+      ]
+    }
+  },
+  {
+    "model_name": "qwen2.5-14b",
+    "model_id": "Qwen/Qwen2.5-14B",
+    "status": "success",
+    "A": {
+      "candidate_string": " A",
+      "prefix_failures": 0,
+      "unique_tokenizations": [
+        {
+          "token_ids": [
+            362
+          ],
+          "tokens": [
+            "ĠA"
+          ],
+          "token_count": 1,
+          "number_of_prompts": 2000
+        }
+      ]
+    },
+    "B": {
+      "candidate_string": " B",
+      "prefix_failures": 0,
+      "unique_tokenizations": [
+        {
+          "token_ids": [
+            425
+          ],
+          "tokens": [
+            "ĠB"
+          ],
+          "token_count": 1,
+          "number_of_prompts": 2000
+        }
+      ]
+    }
+  },
+  {
+    "model_name": "qwen2.5-32b",
+    "model_id": "Qwen/Qwen2.5-32B",
+    "status": "success",
+    "A": {
+      "candidate_string": " A",
+      "prefix_failures": 0,
+      "unique_tokenizations": [
+        {
+          "token_ids": [
+            362
+          ],
+          "tokens": [
+            "ĠA"
+          ],
+          "token_count": 1,
+          "number_of_prompts": 2000
+        }
+      ]
+    },
+    "B": {
+      "candidate_string": " B",
+      "prefix_failures": 0,
+      "unique_tokenizations": [
+        {
+          "token_ids": [
+            425
+          ],
+          "tokens": [
+            "ĠB"
+          ],
+          "token_count": 1,
+          "number_of_prompts": 2000
+        }
+      ]
+    }
+  },
+  {
+    "model_name": "qwen2.5-72b",
+    "model_id": "Qwen/Qwen2.5-72B",
+    "status": "success",
+    "A": {
+      "candidate_string": " A",
+      "prefix_failures": 0,
+      "unique_tokenizations": [
+        {
+          "token_ids": [
+            362
+          ],
+          "tokens": [
+            "ĠA"
+          ],
+          "token_count": 1,
+          "number_of_prompts": 2000
+        }
+      ]
+    },
+    "B": {
+      "candidate_string": " B",
+      "prefix_failures": 0,
+      "unique_tokenizations": [
+        {
+          "token_ids": [
+            425
+          ],
+          "tokens": [
+            "ĠB"
+          ],
+          "token_count": 1,
+          "number_of_prompts": 2000
+        }
+      ]
+    }
+  }
+]

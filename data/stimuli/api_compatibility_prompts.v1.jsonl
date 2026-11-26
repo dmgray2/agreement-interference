@@ -1,0 +1,3 @@
+{"prompt_id":"compat_A_correct","prompt":"Which number is larger?\n\nA. 5\nB. 2\n\nAnswer only A or B.","correct_label":"A"}
+{"prompt_id":"compat_B_correct","prompt":"Which number is larger?\n\nA. 2\nB. 5\n\nAnswer only A or B.","correct_label":"B"}
+

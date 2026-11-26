@@ -1,0 +1,71 @@
+{
+  "provider": "anthropic",
+  "requested_model": "claude-opus-4-5-20251101",
+  "contrast": "N3_matches_N2_minus_N3_mismatches_N2",
+  "match_mean": 0.8310069790628115,
+  "mismatch_mean": 0.7031093279839519,
+  "observed_difference": 0.12789765107885964,
+  "positive_values_mean": "higher accuracy when N3 matches N2",
+  "bootstrap": {
+    "resampling_unit": "item",
+    "stratified": true,
+    "stratum_field": "number_pattern",
+    "strata": [
+      "PPP",
+      "PPS",
+      "PSP",
+      "PSS",
+      "SPP",
+      "SPS",
+      "SSP",
+      "SSS"
+    ],
+    "stratum_counts": {
+      "PPP": 254,
+      "PPS": 232,
+      "PSP": 257,
+      "PSS": 257,
+      "SPP": 249,
+      "SPS": 248,
+      "SSP": 260,
+      "SSS": 243
+    },
+    "requested_replicates": 10000,
+    "successful_replicates": 10000,
+    "skipped_replicates": 0,
+    "seed": 20260728,
+    "ci_method": "percentile",
+    "confidence_level": 0.95,
+    "ci_lower": 0.10691223721013488,
+    "ci_upper": 0.14842933586402274
+  },
+  "regime_contrasts": [
+    {
+      "contrast": "both_match_minus_N1_mismatch_only",
+      "both_match_mean": 1.0,
+      "mismatch_mean": 0.6650197628458498,
+      "observed_difference": 0.33498023715415015,
+      "positive_values_mean": "greater interference from an N1 mismatch",
+      "ci_lower": 0.31225296442687744,
+      "ci_upper": 0.3586956521739131
+    },
+    {
+      "contrast": "both_match_minus_N3_mismatch_only",
+      "both_match_mean": 1.0,
+      "mismatch_mean": 0.8932926829268293,
+      "observed_difference": 0.10670731707317072,
+      "positive_values_mean": "greater interference from an N3 mismatch",
+      "ci_lower": 0.08841463414634143,
+      "ci_upper": 0.1260162601626016
+    },
+    {
+      "contrast": "N3_mismatch_only_minus_N1_mismatch_only",
+      "N3_mismatch_only_mean": 0.8932926829268293,
+      "N1_mismatch_only_mean": 0.6650197628458498,
+      "observed_difference": 0.22827292008097944,
+      "positive_values_mean": "N1 mismatch causes greater interference than N3 mismatch",
+      "ci_lower": 0.19817876538449186,
+      "ci_upper": 0.2589896847585077
+    }
+  ]
+}

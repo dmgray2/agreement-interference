@@ -1,0 +1,12 @@
+model,recorded_checkout_sha,tokenizer_revision,provenance
+gpt2,607a30d783dfa663caf39e06633721c8d4cfcd7e,,Archived checkout inventory. Loaded run revisions require run-specific verification.
+llama3.1-70b,349b2ddb53ce8f2849a6c168a81980ab25258dac,,Archived checkout inventory. Loaded run revisions require run-specific verification.
+llama3.2-1b,4e20de362430cd3b72f300e6b0f18e50e7166e08,,Archived checkout inventory. Loaded run revisions require run-specific verification.
+llama3.2-3b,13afe5124825b4f3751f836b40dafda64c1ed062,,Archived checkout inventory. Loaded run revisions require run-specific verification.
+pythia/410m,9879c9b5f8bea9051dcb0e68dff21493d67e9d4f,,Archived checkout inventory. Loaded run revisions require run-specific verification.
+qwen2.5-1.5b,8faed761d45a263340a0528343f099c05c9a4323,,Archived checkout inventory. Loaded run revisions require run-specific verification.
+qwen2.5-14b,97e1e76335b7017d8f67c08a19d103c0504298c9,,Archived checkout inventory. Loaded run revisions require run-specific verification.
+qwen2.5-32b,1818d35814b8319459f4bd55ed1ac8709630f003,,Archived checkout inventory. Loaded run revisions require run-specific verification.
+qwen2.5-3b,3aab1f1954e9cc14eb9509a215f9e5ca08227a9b,,Archived checkout inventory. Loaded run revisions require run-specific verification.
+qwen2.5-72b,efba10c8e54e91e0d9570ab5f7b51a958474d4cb,,Archived checkout inventory. Loaded run revisions require run-specific verification.
+qwen2.5-7b,d149729398750b98c0af14eb82c78cfe92750796,,Archived checkout inventory. Loaded run revisions require run-specific verification.
